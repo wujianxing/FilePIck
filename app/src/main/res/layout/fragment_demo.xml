@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mark.filepicker.DemoFragment">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/pick_from_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="知道文件在哪"
+        android:gravity="left" />
+    <Button
+        android:id="@+id/pick_from_fragment_card"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:text="试着搜索文件"
+        android:layout_gravity="right" />
+
+</LinearLayout>
+
+</FrameLayout>
