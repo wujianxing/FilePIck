@@ -112,10 +112,11 @@ public class FilePickerActivity extends AppCompatActivity  implements DirectoryF
 
 
     private void initToolbar() {
-        setSupportActionBar(mToolbar);;
+        setSupportActionBar(mToolbar);
         //Show back button
         if (getSupportActionBar()!=null){
             getSupportActionBar().setDisplayShowTitleEnabled(true);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
         //Truncate start of toolbar title
 
